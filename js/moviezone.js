@@ -42,7 +42,7 @@ $('#submit').click( function(e){
                             var genre = data.Genre;
                             var poster=data.Poster;
                             if(poster=="N/A")
-                                poster="download.jpg";
+                                poster="img/download.jpg";
                             var cast = data.Actors;
                             var plot = data.Plot;
             
